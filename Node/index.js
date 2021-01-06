@@ -13,7 +13,7 @@ app.post("/newmeeting", (req, res) => {
       method: "POST",
       uri: "https://api.zoom.us/v2/users/" + email + "/meetings",
       body: 
-      {"topic": "mahipat983",
+      {"topic": "test",
       "type": 2,
       "start_time": "2019-12-11T10:35:01",
       "duration": 60,
